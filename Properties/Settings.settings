@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MassBalans.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="app_ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\database\dbSource.mdf;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\database\dbSource.mdf;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="CompName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Eric Evers Advice</Value>
+    </Setting>
+    <Setting Name="CompCountry" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NL</Value>
+    </Setting>
+    <Setting Name="CompCity" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Arnhem</Value>
+    </Setting>
+    <Setting Name="CompAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hoofdstraat 1</Value>
+    </Setting>
+    <Setting Name="CompZipCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">6722DR</Value>
+    </Setting>
+    <Setting Name="CompCertificate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ISCC12365434</Value>
+    </Setting>
+    <Setting Name="CompCertDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2020-07-09</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

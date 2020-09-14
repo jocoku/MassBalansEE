@@ -1,0 +1,1 @@
+﻿SELECT SUM(quantity) as Amount, MONTH(transactionDate) as 'Month' FROM VertoValues WHERE MONTH(date) >= 4 AND MONTH(date) <= 7 AND YEAR(DATE) = 2020 GROUP BY MONTH(transactionDate)
